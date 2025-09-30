@@ -8,25 +8,6 @@ donenr full readme  as plaintext to copy
 ## 📂 Project Structure
 - **BanqueRMIServer/** → RMI Server (manages bank operations).
 - **BanqueRmiSwing/** → RMI Client (Swing-based GUI to interact with the server).
-
-## 🚀 How to Run
-
-### 1️⃣ Run the Server
-1. Open a terminal inside `BanqueRMIServer`.
-2. Compile and start the server:
-   ```bash
-   javac *.java
-   java Serveur
-The server should be running and waiting for client connections.
-
-2️⃣ Run the Client
-Open a terminal inside BanqueRmiSwing
-
-Compile and start the client:
-   ```bash
-   javac *.java
-   java Client
----
 The Swing GUI will open, allowing you to perform operations (deposit, withdraw, check balance, etc.).
 
 📸 Screenshots
@@ -66,3 +47,22 @@ Java Swing → for building the graphical user interface.
 - Client-server communication handled via Java RMI.
 
 - Simple and user-friendly Swing GUI.
+
+## 🚀 How to Run
+
+### 1️⃣ Run the Server
+1. Open a terminal inside `BanqueRMIServer`.
+2. Compile and start the server:
+   ```bash
+   javac *.java
+   java Serveur
+The server should be running and waiting for client connections.
+
+2️⃣ Run the Client
+Open a terminal inside BanqueRmiSwing
+
+Compile and start the client:
+   ```bash
+   javac *.java
+   java Client
+
