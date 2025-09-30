@@ -26,6 +26,7 @@ Compile and start the client:
    ```bash
    javac *.java
    java Client
+---
 The Swing GUI will open, allowing you to perform operations (deposit, withdraw, check balance, etc.).
 
 📸 Screenshots
