@@ -23,10 +23,9 @@ The server should be running and waiting for client connections.
 Open a terminal inside BanqueRmiSwing
 
 Compile and start the client:
-```bash
+   ```bash
    javac *.java
    java Client
-
 The Swing GUI will open, allowing you to perform operations (deposit, withdraw, check balance, etc.).
 
 📸 Screenshots
